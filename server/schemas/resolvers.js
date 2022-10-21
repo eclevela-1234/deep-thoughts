@@ -1,5 +1,6 @@
 const { User, Thought } = require("../models");
 
+
 const resolvers = {
   Query: {
     thoughts: async (parent, { username }) => {
