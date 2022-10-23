@@ -22,5 +22,8 @@
   "homepage": "https://github.com/eclevela-1234/deep-thoughts#readme",
   "devDependencies": {
     "concurrently": "^7.5.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.4.2"
   }
 }
