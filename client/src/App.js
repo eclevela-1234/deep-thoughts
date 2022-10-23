@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'http://localhost:3001/graphql',
 });
 
 const client = new ApolloClient({
